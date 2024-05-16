@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke and Image</title>
+</head>
+<body>
+    <h1>Random Joke and Image</h1>
+    <div id="content"></div>
+    <script>
+        async function fetchJokeAndImage() {
+            const response = await fetch('/api/jokes-images');
+            const data = await response.json();
+            const contentDiv = document.getElementById('content');
+            contentDiv.innerHTML = `
+                <p><strong>Joke:</strong> ${data.joke.setup} - ${data.joke.punchline}</p>
+                <img src="${data.image}" alt="Random Image">
+            `;
+        }
+
+        fetchJokeAndImage();
+    </script>
+</body>
+</html>
