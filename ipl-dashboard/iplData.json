@@ -1,5 +1,5 @@
 {
-  "SEASON 2024": {
+  "SEASON_2024": {
     "topTenOrangeCapPlayers": [
       {
         "playerName": "Virat Kohli",
@@ -211,7 +211,7 @@
       }
     ]
   },
-  "SEASON 2023": {
+  "SEASON_2023": {
     "topTenOrangeCapPlayers": [
       {
         "playerName": "Shubman Gill",
@@ -419,7 +419,7 @@
       }
     ]
   },
-  "SEASON 2022": {
+  "SEASON_2022": {
     "topTenOrangeCapPlayers": [
       {
         "playerName": "Jos Buttler",
@@ -607,7 +607,7 @@
       }
     ]
   },
-  "SEASON 2021": {
+  "SEASON_2021": {
     "topTenOrangeCapPlayers": [
       {
         "playerName": "Ruturaj Gaikwad",
@@ -795,7 +795,7 @@
       }
     ]
   },
-  "SEASON 2020": {
+  "SEASON_2020": {
     "topTenOrangeCapPlayers": [
       {
         "playerName": "KL Rahul",

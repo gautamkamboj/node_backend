@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>IPL Dashboard</h1>
+        <div class="filters">
+            <label for="season-select">Select Season:</label>
+            <select id="season-select">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+        <div class="chart-container">
+            <h2>Top 10 Orange Cap Players</h2>
+            <canvas id="orangeCapChart" height="100"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top 10 Players with Most Fours</h2>
+            <canvas id="mostFoursChart" height="100"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top 10 Players with Most Sixes</h2>
+            <canvas id="mostSixesChart" height="100"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top 10 Players with Most Fifties</h2>
+            <canvas id="mostFiftiesChart" height="100"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top 10 Players with Most Centuries</h2>
+            <canvas id="mostCenturiesChart" height="100"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
